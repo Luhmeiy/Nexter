@@ -1,0 +1,19 @@
+.feature {
+    align-items: start;
+    column-gap: 2.5rem;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    row-gap: 1.5rem;
+
+    &__icon {
+        fill: $color-primary;
+        grid-row: 1 / span 2;
+        height: 4.5rem;
+        transform: translateY(-1rem);
+        width: 4.5rem;
+    }
+
+    &__text {
+        font-size: 1.7rem;
+    }
+}

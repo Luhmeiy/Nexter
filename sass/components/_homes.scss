@@ -1,0 +1,7 @@
+.homes {
+    display: grid;
+    gap: 7rem;
+    grid-column: center-start / center-end;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    margin: 15rem 0;
+}
